@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     background-color: black;
+    align-items: center;
+    color: white;
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url(graffiato2.jpg);
+    background-position: center ,fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    
+}
+.min{
+    font-size: 40px;
+
+}
+.min1{
+    font-size: 20px;
+}
+.sub{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+}
+.su{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+.finish{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sale{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
