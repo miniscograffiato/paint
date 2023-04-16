@@ -4,6 +4,7 @@ body{
 .header{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
      background-color: black;
     align-items: center;
@@ -12,6 +13,7 @@ body{
 .middle{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background-image: url(graffiato2.jpg);
@@ -30,6 +32,7 @@ body{
 }
 .sub{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     background-color: black;
     color: white;
@@ -37,9 +40,10 @@ body{
 .su{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-}
+} 
 footer{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     background-color: black;
@@ -47,6 +51,7 @@ footer{
 }
 .finish{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
 }
@@ -54,4 +59,15 @@ footer{
     text-align: center;
     color: white;
     background-color: black;
+}
+@media screen and (max-width:600px) {
+    .su{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .img1{
+        width: 115px;
+        height: 100px;
+    }
+    
 }
